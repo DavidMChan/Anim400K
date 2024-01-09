@@ -26,20 +26,9 @@ To get access to the Anim400K dataset (annotations and pre-extracted features) p
 
 2- We will verify the correctness of the provided information. 
 
-3- You will receive an email with the credentials to download the data.
+3- You will receive an email with the links and information to download the data.
 
-See the data documentation [here](doc/README.md). 
-
-
-
-# Data Download
-The confirmation email will contain LINK and PASSWORD to access the data. Each file can be downloaded from the web interface or through the provided script `Anim400K_downloader.py `, which can be used as follows:
-
-```bash 
-python Anim400K_downloader.py --destination_folder {PATH_TO_DOWNLOAD} --download_link {LINK} --password {PASSWORD} 
-```
-
-Required Dependencies: `pip install tqdm minio`
+See the data documentation [here](doc/README.md).
 
 
 # Citation
