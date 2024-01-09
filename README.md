@@ -20,7 +20,7 @@ Anim400K is a large-scale dataset of aligned audio-video clips in both the Engli
 
 
 # Request access to the Anim400K dataset
-To get access to the MAD dataset (annotations and pre-extracted features) please follow these steps:
+To get access to the Anim400K dataset (annotations and pre-extracted features) please follow these steps:
 
 1- Complete this form ([link]()) and sign the NDA (Non Disclosure Agreement).
 
