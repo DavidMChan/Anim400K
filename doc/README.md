@@ -1,5 +1,5 @@
 
-# Annotations file (anim400K_anntions.json)
+# Annotations file (anim400K_anntions.json, 266Mb)
 
 The annotations are stored in an omnibus annotations file, with the following form:
 ```json
@@ -73,7 +73,7 @@ The annotations are stored in an omnibus annotations file, with the following fo
 }
 ```
 
-# Audio Clips
+# Audio Clips (34Gb)
 
 The audio clips are stored in a .tar.gz file, containing the following form:
 ```
@@ -82,7 +82,7 @@ anim400k_audio_clips/
 ```
 For example, the audio clip ID `db/db019ebb-088c-4850-b791-de097303264d` is stored in `anim400k_audio_clips/db/db019ebb-088c-4850-b791-de097303264d.mp3`.
 
-# Video Clips
+# Video Clips (199Gb)
 
 The video clips are stored in a .tar.gz file, containing the following form:
 ```
@@ -91,7 +91,7 @@ anim400k_video_clips/
 ```
 For example, the video clip ID `db/db019ebb-088c-4850-b791-de097303264d` is stored in `anim400k_audio_clips/db/db019ebb-088c-4850-b791-de097303264d.mp4`.
 
-# Character Pictures
+# Character Pictures (262Mb)
 
 ```
 anim400k_character_pics/
