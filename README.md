@@ -1,23 +1,15 @@
-# Anim400K: A dataset designed from the ground up for automated dubbing of video
-
-## Introduction
-Official repository for  Anim400K. [[ArXiv Preprint](https://arxiv.org/abs/2401.05314)]
-
-Paper accepted @ICASSP2024. 
+# Anim-400K: A dataset designed from the ground up for automated dubbing of video
+Official repository for the Anim-400K dataset. [[ArXiv Preprint](https://arxiv.org/abs/2401.05314)]
 
 ![image](https://github.com/DavidMChan/Anim400K/assets/3190178/d819fc8c-2e56-4ed0-bf3a-1b249899cbdc)
-
-
-# News
-**[January 2024]** Anim400K (v1) accepted at ICASSP2024. </br>
-**[January 2024]** Anim400K (v1) release. </br>
-
-
 
 # What is Anim400K?
 
 Anim400K is a large-scale dataset of aligned audio-video clips in both the English and Japanese languages. It is comprised of over 425K aligned clips (763 hours) consisting of both video and audio drawn from over 190 properties covering hundreds of themes and genres. Anim400K is further augmented with metadata including genres, themes, show-ratings, character profiles, and animation styles at a property level, episode synopses, ratings, and subtitles at an episode level, and pre-computed ASR at an aligned clip level to enable in-depth research into several audio-visual tasks.
 
+# News
+**[January 2024]** Anim400K (v1) release. </br>
+**[January 2024]** Anim400K (v1) accepted at ICASSP2024. </br>
 
 # Request access to the Anim400K dataset
 To get access to the Anim400K dataset (annotations and pre-extracted features) please follow these steps:
@@ -29,7 +21,6 @@ To get access to the Anim400K dataset (annotations and pre-extracted features) p
 3- You will receive an email with the links and information to download the data.
 
 See the data documentation [here](doc/README.md).
-
 
 # Citation
 If any part of our paper is helpful to your work, please cite with:
