@@ -1,7 +1,7 @@
 # Anim400K: A dataset designed from the ground up for automated dubbing of video
 
 ## Introduction
-Official repository for  Anim400K. [[ArXiv Preprint]()]
+Official repository for  Anim400K. [[ArXiv Preprint](https://arxiv.org/abs/2401.05314)]
 
 Paper accepted @ICASSP2024. 
 
