@@ -20,7 +20,7 @@ The annotations are stored in an omnibus annotations file, with the following fo
     'favorites': int (The number of people who favorited the show),
     'episode_num': int (The number of episodes),
     'aired': str (The air date),
-    'premiered': str (The premeire date),
+    'premiered': str (The premiere date),
     'broadcast': str (When the show aired),
     'producers': [str] (The producers for the show),
     'licensors': [str] (The licensors for the show),
