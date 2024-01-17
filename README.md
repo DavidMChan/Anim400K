@@ -8,11 +8,27 @@ Official repository for the Anim-400K dataset. [[ArXiv Preprint](https://arxiv.o
 Anim400K is a large-scale dataset of aligned audio-video clips in both the English and Japanese languages. It is comprised of over 425K aligned clips (763 hours) consisting of both video and audio drawn from over 190 properties covering hundreds of themes and genres. Anim400K is further augmented with metadata including genres, themes, show-ratings, character profiles, and animation styles at a property level, episode synopses, ratings, and subtitles at an episode level, and pre-computed ASR at an aligned clip level to enable in-depth research into several audio-visual tasks.
 
 # News
+**[January 2024]** Anim400K (v1) available on [Huggingface Datasets](https://huggingface.co/datasets/davidchan/anim400k). </br> 
 **[January 2024]** Anim400K (v1) release. </br>
 **[January 2024]** Anim400K (v1) accepted at ICASSP2024. </br>
 
 # Request access to the Anim400K dataset
-To get access to the Anim400K dataset (annotations and pre-extracted features) please follow these steps:
+
+We provide two means of getting access to the dataset:
+
+## Option 1: Huggingface Datasets
+
+To get access to the Anim400K dataset (annotations and clips) please follow these steps:
+
+1- Log into your Huggingface account, and fill out the dataset request form [here](https://huggingface.co/datasets/davidchan/anim400k)
+
+2- Wait for manual access approval as we will verify the correctness of the provided information. 
+
+3- Use the Huggingface CLI/tools to download the data. The tar.gz files are provided as .tar.gz-part files, which need to be assembled before unzipping. This can be done following the instructions [here](https://askubuntu.com/questions/1179657/how-to-extract-tgz-part).
+
+## Option 2: Email
+
+To get access to the Anim400K dataset (annotations and clips) please follow these steps:
 
 1- Complete this form ([link](https://forms.gle/7xBp2uFP4Fb4UZye9)) and sign the TOU (Terms of Use) and NDA (Non Disclosure Agreement).
 
@@ -21,6 +37,7 @@ To get access to the Anim400K dataset (annotations and pre-extracted features) p
 3- You will receive an email with the links and information to download the data.
 
 See the data documentation [here](doc/README.md).
+
 
 # Citation
 If any part of our paper is helpful to your work, please cite with:
