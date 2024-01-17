@@ -1,10 +1,10 @@
 
 # Annotations file (anim400K_anntions.json, 266Mb)
 
-The annotations are stored in an omnibus annotations file, with the following form:
+The annotations are stored in an omnibus annotations file with keys 'train', 'val' and 'test', each with the following form:
 ```json
-{
-  'show_key': {
+[
+  {
     'show': str (The name of the show),
     'season': str (The name of the season),
     'link': str (A URL to the season information),
@@ -68,9 +68,9 @@ The annotations are stored in an omnibus annotations file, with the following fo
          ],
       }
       ...
-  }
-
-}
+    }
+  ...
+]
 ```
 
 # Audio Clips (34Gb)
@@ -81,6 +81,8 @@ anim400k_audio_clips/
     {id_folder}/{id}
 ```
 For example, the audio clip ID `db/db019ebb-088c-4850-b791-de097303264d` is stored in `anim400k_audio_clips/db/db019ebb-088c-4850-b791-de097303264d.mp3`.
+
+NOTE: For some videos, associated audio clips *may not exist* -- this is not indicated anywhere in the annotation files, and we are working to resolve this issue.
 
 # Video Clips (199Gb)
 
