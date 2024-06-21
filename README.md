@@ -22,9 +22,7 @@ To get access to the Anim400K dataset (annotations and clips) please follow thes
 
 1- Log into your Huggingface account, and fill out the dataset request form [here](https://huggingface.co/datasets/davidchan/anim400k)
 
-2- Wait for manual access approval as we will verify the correctness of the provided information. 
-
-3- Use the Huggingface CLI/tools to download the data. The tar.gz files are provided as .tar.gz-part files, which need to be assembled before unzipping. This can be done following the instructions [here](https://askubuntu.com/questions/1179657/how-to-extract-tgz-part).
+2- Use the Huggingface CLI/tools to download the data. The tar.gz files are provided as .tar.gz-part files, which need to be assembled before unzipping. This can be done following the instructions [here](https://askubuntu.com/questions/1179657/how-to-extract-tgz-part).
 
 ## Option 2: Email
 
